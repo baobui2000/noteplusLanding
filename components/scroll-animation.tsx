@@ -18,7 +18,7 @@ export function ScrollAnimation({ children, animation = 'fadeIn' }: ScrollAnimat
     const element = ref.current
     if (!element) return
 
-    let tl = gsap.timeline({
+    const tl = gsap.timeline({
       scrollTrigger: {
         trigger: element,
         start: 'top bottom-=100',
