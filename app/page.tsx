@@ -12,7 +12,7 @@ export default function LandingPage() {
         <section
           className="w-full h-[900px] py-12 md:py-24 lg:py-32 xl:py-48 transition-colors relative bg-cover bg-center"
           style={{ 
-            backgroundImage: "url('/screen2.png')",
+            backgroundImage: "url('/images/screen2.png')",
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat'
@@ -46,7 +46,7 @@ export default function LandingPage() {
               </div>
               <div className="mt-12 relative w-full max-w-lg mx-auto">
                 <Image
-                  src="/screen1.png?height=1080&width=1920"
+                  src="/images/screen1.png?height=1080&width=1920"
                   alt="RestaurantDX Dashboard Mockup"
                   width={1920}
                   height={1080}
@@ -128,7 +128,7 @@ export default function LandingPage() {
               </div>
               <div className="mt-8 relative">
                 <Image
-                  src="/user.png?height=400&width=600"
+                  src="/images/user.png?height=400&width=600"
                   alt="AI Translation Feature Mockup"
                   width={600}
                   height={400}
@@ -154,7 +154,7 @@ export default function LandingPage() {
               <div className="mt-8 flex justify-center items-center space-x-8">
                 <div className="relative">
                   <Image
-                    src="/screenmobile.png?height=900&width=550"
+                    src="/images/screenmobile.png?height=900&width=550"
                     alt="RestaurantDX Mobile App Mockup"
                     width={550}
                     height={900}
